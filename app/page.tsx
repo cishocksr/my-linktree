@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import data from '@/data.json';
-import { GitHubIcon, TwitterIcon } from '@/Icons';
+import { GitHubIcon, TwitterIcon } from '@/app/Icons';
 
 function LinkCard({
   href,
@@ -50,7 +50,7 @@ export default function Home() {
       {data.links.map((link) => (
         <LinkCard key={link.href} {...link} />
       ))}
-      <div className='flex items-center gap-4 mt-8'>
+      <div className='flex items-center gap-4 mt-8 text-white'>
         {data.socials.map((link) => {
           if (link.href.includes('twitter')) {
             return <TwitterIcon />;
