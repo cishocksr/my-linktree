@@ -1,0 +1,21 @@
+{
+    "name": "Chris Shockley",
+    "avatar": "https://pbs.twimg.com/profile_images/1677082735733530624/AJNacdBn_400x400.jpg",
+    "links": [
+        {
+            "title": "Personal Site",
+            "href": "https://cishockleysr.com",
+            "image": "https://pbs.twimg.com/profile_images/1677082735733530624/AJNacdBn_400x400.jpg"
+        }
+    ],
+    "socials": [
+        {
+            "title": "Twitter",
+            "href": "https://twitter.com/cshocksr"
+        },
+        {
+            "title": "Github",
+            "href": "https://github.com/cisocksr"
+        }
+    ]
+}
